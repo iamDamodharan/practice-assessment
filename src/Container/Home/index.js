@@ -41,13 +41,13 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-[#D8D8D8]">
+    <div className="w-full h-screen overflow-hidde overflow-y-auto bg-[#D8D8D8]">
       <Button
         type='button'
         variant={"outlined"}
         onClick={() => toggleOverlay(!overlay)}
       >
-        Create
+        Create Job
       </Button>
       <ListView show={true} data={list} />
       <OverlayPopup show={overlay} onClose={() => toggleOverlay(false)}>
