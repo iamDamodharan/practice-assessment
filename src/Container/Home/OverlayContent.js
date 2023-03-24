@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../../Component/Button";
-import { RangeInput, TextInput, Input } from "../../Component/Input";
+import { RangeInput, TextInput } from "../../Component/Input";
 import RadioGroup from "../../Component/RadioButton/RadioGroup";
 import {
   checkEmpty,

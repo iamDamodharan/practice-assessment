@@ -21,7 +21,7 @@ const Card = (props) => {
   return (
     <div className='w-1/2 my-2 max-w-xl lg:w-1/2 md:w-full sm:w-full'>
       <div className='flex flex-row border border-[#DADEDF] py-4 px-6 bg-white shadow-md rounded-md overflow-hidden'>
-        <img className='w-12 h-12' src={Netflix} alt='Card image' />
+        <img className='w-12 h-12' src={Netflix} alt='Card' />
         <div className='pl-2'>
           <div>
             <h2 className='text-2xl font-normal'>{title}</h2>
